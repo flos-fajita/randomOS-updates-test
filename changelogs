@@ -1,0 +1,112 @@
+Source Changelog 17/05/2022:-
+May Security Patch merged
+• Fixed laggy Quick settings
+• Fixed location indicator glitch in QS
+• Removed VoLTE and VoWIfi icons
+• Added launcher3 from crdroid in vanilla build
+• Added back smart charging
+• Hotspot client manager and hidden ssid settings
+• Added settings to block annoying signal strength icon
+• Implement cutout force full screen
+• Added back Dash Charging/VOOC/Warp/Turbo Charging support
+• Lineage upstream
+
+Device-side Changelog 17/05/2022
+
+sdm845-common:Rebase whole dt on 15/5/2022
+sdm845-common: added HAVOC device settings
+sdm845-common: enabled burn in protection
+sdm845-common: sepolicy: :fixup
+sdm845-common: Added aosp color display modes. support
+sdm845-common: added Smart chargingsdm845common:
+Added Smart chargingsdm845-common: added Smart charging
+sdm845-common: lots of under hood cleanup/ optimization done
+sdm845-common:Misc fixes and improvements
+sdm845-common: Merge hardware/oneplus components
+interfaces: Import Camera HAL
+interfaces: Move CameraMDMHIDL to hardware
+sdm845-common :sepolicy: fastchg fixup
+Pick up USB configurations from QCOM'
+vibrator: Add support for intensity control
+vibrator: Update effects from Q vibrator HAL
+fixed few more Sepolicy denials
+imported latest QTI bt Stack
+call recording fixed
+
+===============
+Enchilada
+===============
+
+enchilada: Set USB product string to 'OnePlus 6'
+fixup! enchilada: Remove resource overlays for system bar heights
+enchilada: Apply OOS 11 audio volumes changes
+enchilada: Import audio_policy_volumes
+
+hardware/oneplus
+===============
+sdm845-common: updated merged hardware/oneplus components in device tree
+prmus kernel-rebased
+===============
+Synchronize codes for Oneplus 6/6T OxygenOS 11.1.1.1
+Adding mutex_lock instead of mutex_trylock
+enable load bytes helper for filter/reuseport progs
+Add sysfs nodes for EFPS
+High power consumption in Real AOD 17819
+merged Tag Android 12.0 caf
+LA.UM.10.3.r1-01700-sdm845.0
+LA.UM.10.3.r1-01700-sdm845.0
+
+drivers: drm: Import OnePlus DC dimming code
+ARM: dts: msm: Import some changes from oneplus/SDM845_R_11.0
+RM: dts: msm: Add second trip to thermal zones those have two clients
+
+
+Features over LineageOS:
+Forklineageos Android 12 Features
+faceunlock
+• Customizable monet settings
+• Sound Tile
+• Power off/Reboot/Recovery Tile
+• DataSwitch Tile
+• Improved Haptic Feedback
+• Swipe for Screenshot
+• Dash Charging/VOOC/Warp Charging support
+• Signature Spoofing Support
+• Safety net working without Magisk
+• Animation on connecting charger
+• Added battery temperature info
+• Systemwide fonts
+• Adaptive playback
+• Pulse and edge notifications
+• Option to Reset Battery stats
+• Pixel launcher on gapps and lawnchair in vanilla build
+• added fullscreen navigation
+• added option to enable media art blur on lockscreen
+• Extreme battery saver
+• Haptic Feedback on qs tiles
+• Allow toggling camera/mic privacy indicator
+• Runtime toggle for location privacy indicator
+• Smart space (weather on lockscreen)
+• Allow customizing the length of naviation bar
+• Allow disabling ripple effect on unlock
+• Unlimited google photos backup
+• Allow to edit/remove/add tile with one click
+• Add time spent in app in app settings from Wellbeing
+• Optional haptic feedback for back gesture
+• Pixelprops to spoof device fp for various apps
+• Per app volume control
+• Added more dark themes from arrow os also seperate black theme from aex
+• LTE+/4G+ icon
+• Option to display 4g icon inste
+• Option to disable data disabled icon
+• Protect sensitive info in about device (like imei)
+• Optimizations from proton aosp
+• Show bolt whilecharging with Text battery style
+• Toggle to show media notification background with artwork
+• Lockscreen charging info
+• Search bar avatar
+• Support for oem fast charger detection
+• Added new incall vibration controls(this works fine with google dialer)
+• Network traffic indicator for all devices
+• FPS and CPU info tiles
+faceunlocK
